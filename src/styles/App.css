@@ -1,0 +1,33 @@
+/* App.css */
+body {
+    font-family: Arial, sans-serif; /* 设置字体 */
+  }
+  
+  h1, h2 {
+    color: #333; /* 设置标题颜色 */
+  }
+  
+  input {
+    display: block;
+    margin: 10px 0;
+    padding: 8px; /* 设置输入框的内边距 */
+  }
+  
+  button {
+    padding: 8px 16px;
+    background-color: #007bff; /* 按钮背景色 */
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #005600
+  }
+
+  .container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 创建3列，每列等宽 */
+    gap: 10px; /* 每个输入框之间的间距 */
+  }
+  
